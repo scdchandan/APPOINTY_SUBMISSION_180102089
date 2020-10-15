@@ -60,7 +60,7 @@ p{
   width: 100% !important;
   margin-bottom: 5px !important;
   justify-content: space-between !important;
-  align-items: center !important;
+  /* align-items: center !important; */
 }
 
 img{
