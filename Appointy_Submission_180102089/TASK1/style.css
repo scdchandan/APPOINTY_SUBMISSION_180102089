@@ -15,7 +15,7 @@ body{
   position: relative;
   background: #fff;
   width: 400px;
-  height: 640px !important;
+  height: 100% !important;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -48,12 +48,13 @@ p{
 
 .card-footer{
   width: 100% !important;
-  padding-left: 50px !important;
-  padding-right: 10px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
 .card-header{
   display: inline;
+  margin: 0 auto;
   border-bottom-color: #2a9df4 !important;
   border-bottom-width: medium;
   width: 100% !important;
@@ -69,6 +70,7 @@ img{
 }
 
 .fa{
+
   border-color: #2a9df4;
   border-width: thick;
   color:#2a9df4;
@@ -89,9 +91,11 @@ img{
 
 }
 
-.row{
+/* .row{
   display: flex !important;
-}
+} */
+
+
 
 .combantainer{
   width: 100% !important;
@@ -109,4 +113,12 @@ a{
 h6{
   color: #383838 !important;
   font-size: 0.7rem;
+}
+
+.icc{
+  margin: 0 auto;
+}
+
+.tcc{
+  margin: 0 auto;
 }
